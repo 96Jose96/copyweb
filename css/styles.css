@@ -50,7 +50,6 @@ nav {
 .searchBar img {
     width: 70px;
     height: 40px;
-    cursor: pointer;
 }
 
 .searchBox {
@@ -93,10 +92,6 @@ nav {
     font-style: normal;
 }
 
-.searchBtn:hover {
-    cursor: pointer;
-}
-
 .singUp {
     width: 120px;
     height: 50px;
@@ -113,7 +108,6 @@ nav {
 .singUp:hover {
     color: #cccccc;
     border: solid 1px #dad7d7;
-    cursor: pointer;
 }
 
 .singIn {
@@ -130,7 +124,6 @@ nav {
 
 .singIn:hover {
     color: #cccccc;
-    cursor: pointer;
 }
 
 /*---------------SECTION1----------------*/
@@ -206,10 +199,6 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-}
-
-.mainBtns button:hover {
-    cursor: pointer;
 }
 
 .mainBtns button:first-child {
@@ -316,10 +305,6 @@ footer {
     width: 60px;
 }
 
-.footerImg img:hover {
-    cursor: pointer;
-}
-
 .whatsapp {
     width: 90px;
     position: fixed;
@@ -327,8 +312,19 @@ footer {
     bottom: 40px;
     border-radius: 50%;
     box-shadow: 11px 11px 6px 0px rgba(0,0,0,0.5);
+    transition: 0.15s;
 }
 
 .whatsapp:hover {
+    opacity: 80%;
+}
+
+.whatsapp:hover,
+.footerImg:hover,
+.mainBtns button:hover,
+.singIn:hover,
+.singUp:hover,
+.searchBtn:hover,
+.searchBar img:hover {
     cursor: pointer;
 }
